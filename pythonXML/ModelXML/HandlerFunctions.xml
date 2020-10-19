@@ -1,0 +1,4 @@
+<HandlerFunctions>
+  <Function name="name" handler="handler" module="module">
+  </Function>
+</HandlerFunctions>

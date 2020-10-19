@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cvsident  = "@(#) $Header: /var/cvsroot/xml_cg/hr/vestigo/modules/ccs/xml/actionlist/tblCSSCaseOverview.xml,v 1.1 2019/02/20 15:19:46 vu00370 Exp $" -->
+<ActionList name="tblCSSCaseOverview" screen="CSSCaseOverview" module="CCS">
+  <DataSource name="CCSCaseOverview" cache="TRUE" qbe="CCSCaseOverview" type="CORE"/>
+  <Description croatian="Action list for tblCSSCaseOverview" english="Action list for tblCSSCaseOverview"/>
+</ActionList>

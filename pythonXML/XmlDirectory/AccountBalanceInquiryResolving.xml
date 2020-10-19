@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cvsident  = "@(#) $Header: /var/cvsroot/xml_cg/hr/vestigo/modules/ccs/xml/mapping/AccountBalanceInquiryResolving.xml,v 1.4 2019/04/04 14:29:26 vu00376 Exp $" -->
+<Mapping name="AccountBalanceInquiryResolving" areaSize="31000" module="CCS">
+  <Input attribute="casHeaId" ldb="AccountBalanceInquiryResolvingLDB" to="casHeaId" dataType="hr.vestigo.framework.util.vtype.VBigDecimal"/>
+  <Input attribute="eveId" ldb="AccountBalanceInquiryResolvingLDB" to="eveId" dataType="hr.vestigo.framework.util.vtype.VBigDecimal"/>
+  <Output from="txfAccNo" ldb="AccountBalanceInquiryResolvingLDB" attribute="txfAccNo" dataType="hr.vestigo.framework.util.vtype.VString"/>
+  <Output from="txfAccLifeReas" ldb="AccountBalanceInquiryResolvingLDB" attribute="txfAccLifeReas" dataType="hr.vestigo.framework.util.vtype.VString"/>
+  <Output from="txfLifeChg" ldb="AccountBalanceInquiryResolvingLDB" attribute="txfLifeChg" dataType="hr.vestigo.framework.util.vtype.VTimestamp"/>
+  <Output from="txfCurrNum" ldb="AccountBalanceInquiryResolvingLDB" attribute="txfCurrNum" dataType="hr.vestigo.framework.util.vtype.VBigDecimal"/>
+  <Output from="txfCurrName" ldb="AccountBalanceInquiryResolvingLDB" attribute="txfCurrName" dataType="hr.vestigo.framework.util.vtype.VString"/>
+  <Output from="accLife" ldb="AccountBalanceInquiryResolvingLDB" attribute="accLife" dataType="hr.vestigo.framework.util.vtype.VString"/>
+  <Output from="cusId" ldb="AccountBalanceInquiryResolvingLDB" attribute="cusId" dataType="hr.vestigo.framework.util.vtype.VBigDecimal"/>
+  <Output from="cardNo" ldb="AccountBalanceInquiryResolvingLDB" attribute="cardNo" dataType="hr.vestigo.framework.util.vtype.VString"/>
+  <Output from="txfAccProd" ldb="AccountBalanceInquiryResolvingLDB" attribute="txfAccProd" dataType="hr.vestigo.framework.util.vtype.VString"/>
+  <Output from="intAccId" ldb="AccountBalanceInquiryResolvingLDB" attribute="intAccId" dataType="hr.vestigo.framework.util.vtype.VBigDecimal"/>
+  <Output from="entCode" ldb="AccountBalanceInquiryResolvingLDB" attribute="entCode" dataType="hr.vestigo.framework.util.vtype.VString"/>
+  <Output from="entName" ldb="AccountBalanceInquiryResolvingLDB" attribute="entName" dataType="hr.vestigo.framework.util.vtype.VString"/>
+</Mapping>

@@ -1,0 +1,7 @@
+[smtp]
+port = 25
+smtp_server = nestor9.vestigo.hr
+
+[mail]
+sender= igor.matovina@vestigo.hr
+receiver= igor.matovina@vestigo.hr

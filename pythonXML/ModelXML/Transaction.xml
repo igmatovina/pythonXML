@@ -1,0 +1,4 @@
+<Transaction name="SCustAddressLookUpTransaction" type="SQLJ" module="CIF">
+  <SubTransaction no="1" mapping="CustAddressAllDataLookUpMapping"/>
+  <Description croatian="." english="."/>
+</Transaction>

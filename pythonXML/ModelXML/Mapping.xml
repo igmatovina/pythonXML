@@ -1,0 +1,4 @@
+<Mapping name="AccountBalanceInquiryResolving" module="CCS">
+  <Input attribute="casHeaId" ldb="AccountBalanceInquiryResolvingLDB" to="casHeaId"/>
+  <Output from="txfAccLifeReas" ldb="AccountBalanceInquiryResolvingLDB" attribute="txfAccLifeReas" dataType="hr.vestigo.framework.util.vtype.VBigDecimal"/>
+</Mapping>

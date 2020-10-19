@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cvsident  = "@(#) $Header:$" -->
+<HandlerFunctions>
+  <Function name="CCSCaseDetailsSE" handler="hr.vestigo.modules.ccs.CCSCaseDetails" cache="TRUE" syncOnFail="FALSE" module="CCS">
+    <Transaction name="CCSCaseDetails" screen="CCSCaseDetails"/>
+  </Function>
+  <Function name="txfCardNumFV" handler="hr.vestigo.modules.ccs.CCSCaseDetails" cache="TRUE" syncOnFail="FALSE" module="CCS">
+    <Transaction name="RCAccountBalanceListSelect" screen="CCSCaseDetails"/>
+  </Function>
+  <Function name="communication" handler="hr.vestigo.modules.ccs.CCSCaseDetails" cache="TRUE" syncOnFail="FALSE" module="CCS"/>
+  <Function name="CCSCaseDetailsSX" handler="hr.vestigo.modules.ccs.CCSCaseDetails" cache="TRUE" syncOnFail="FALSE" module="CCS"/>
+  <Function name="CCSCaseDetailsSR" handler="hr.vestigo.modules.ccs.CCSCaseDetails" cache="TRUE" syncOnFail="FALSE" module="CCS"/>
+  <Function name="txfContractNoFV" handler="hr.vestigo.modules.ccs.CCSCaseDetails" cache="TRUE" syncOnFail="FALSE" module="CCS"/>
+</HandlerFunctions>

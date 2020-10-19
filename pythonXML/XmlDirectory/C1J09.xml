@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cvsident  = "@(#) $Header: /var/cvsroot/xml_cg/hr/vestigo/modules/cif/xml/transaction/C1J09.xml,v 1.2 2018/03/30 12:02:59 vu00361 Exp $" -->
+<Transaction name="SCustAddressLookUpTransaction" type="SQLJ" interface="NO" no="C1J09" basicMapping="SCustAddressLookUpTransaction" module="CIF">
+  <SubTransaction no="1" mapping="SCustAddressLookUpTransaction" isolationLevel="UR" noSerProf="1"/>
+  <SubTransaction no="2" mapping="SCustOrgUnitCodeNewLookUpTransaction" declInerclass="SCustOrgUnitCodeNewLookUpTransaction" isolationLevel="UR" noSerProf="1"/>
+  <SubTransaction no="3" mapping="SCuscrdAddressCheck" declInerclass="SCuscrdAddressCheck" isolationLevel="UR" noSerProf="1"/>
+  <SubTransaction no="4" mapping="CustAddressAllDataLookUpMapping" declInerclass="CustAddressAllDataLookUpMapping" isolationLevel="UR" noSerProf="1"/>
+  <Description croatian="." english="."/>
+</Transaction>

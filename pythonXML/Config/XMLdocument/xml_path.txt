@@ -1,0 +1,6 @@
+[documents path]
+input_xml_path = ./XmlDirectory
+output_xml_path = ./OutputXML
+
+[model path]
+model_path = ./ModelXML
